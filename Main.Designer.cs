@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Клиенты");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Неисправности");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Оборудование");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Предприятие     ", new System.Windows.Forms.TreeNode[] {
-            treeNode5,
-            treeNode6,
-            treeNode7});
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Клиенты");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Неисправности");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Оборудование");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Предприятие     ", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3});
             this.treeView = new System.Windows.Forms.TreeView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.менюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -65,20 +65,20 @@
             this.treeView.Enabled = false;
             this.treeView.Location = new System.Drawing.Point(6, 11);
             this.treeView.Name = "treeView";
-            treeNode5.Name = "clientTree";
-            treeNode5.NodeFont = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
-            treeNode5.Text = "Клиенты";
-            treeNode6.Name = "brakeTree";
-            treeNode6.NodeFont = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
-            treeNode6.Text = "Неисправности";
-            treeNode7.Name = "rigTree";
-            treeNode7.NodeFont = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
-            treeNode7.Text = "Оборудование";
-            treeNode8.Name = "MainTree";
-            treeNode8.NodeFont = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode8.Text = "Предприятие     ";
+            treeNode1.Name = "clientTree";
+            treeNode1.NodeFont = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
+            treeNode1.Text = "Клиенты";
+            treeNode2.Name = "brakeTree";
+            treeNode2.NodeFont = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
+            treeNode2.Text = "Неисправности";
+            treeNode3.Name = "rigTree";
+            treeNode3.NodeFont = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic);
+            treeNode3.Text = "Оборудование";
+            treeNode4.Name = "MainTree";
+            treeNode4.NodeFont = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode4.Text = "Предприятие     ";
             this.treeView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode8});
+            treeNode4});
             this.treeView.Size = new System.Drawing.Size(229, 491);
             this.treeView.TabIndex = 0;
             // 
@@ -111,6 +111,7 @@
             this.настройкиСоединияСБДToolStripMenuItem.Name = "настройкиСоединияСБДToolStripMenuItem";
             this.настройкиСоединияСБДToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
             this.настройкиСоединияСБДToolStripMenuItem.Text = "Настройки соединия с БД";
+            this.настройкиСоединияСБДToolStripMenuItem.Click += new System.EventHandler(this.настройкиСоединияСБДToolStripMenuItem_Click);
             // 
             // импортНеисправностейToolStripMenuItem
             // 

@@ -7,3 +7,4 @@ D:\C#\Silver\Silver\obj\Debug\Silver.Properties.Resources.resources
 D:\C#\Silver\Silver\obj\Debug\Silver.csproj.GenerateResource.Cache
 D:\C#\Silver\Silver\obj\Debug\Silver.exe
 D:\C#\Silver\Silver\obj\Debug\Silver.pdb
+D:\C#\Silver\Silver\obj\Debug\Silver.Option.OptionDataBase.resources

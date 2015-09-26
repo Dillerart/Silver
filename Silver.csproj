@@ -50,10 +50,20 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="Option\MainOption.cs" />
+    <Compile Include="Option\OptionDataBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Option\OptionDataBase.Designer.cs">
+      <DependentUpon>OptionDataBase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Option\OptionDataBase.resx">
+      <DependentUpon>OptionDataBase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,7 +89,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Handbook\" />
-    <Folder Include="Option\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

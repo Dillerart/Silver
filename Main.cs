@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Silver.Option;
 
 namespace Silver
 {
@@ -32,6 +33,11 @@ namespace Silver
                treeView.Enabled = false;
            }
            
+        }
+
+        private void настройкиСоединияСБДToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           new OptionDataBase().ShowDialog();
         }
 
     }
