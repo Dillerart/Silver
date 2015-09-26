@@ -1,0 +1,9 @@
+D:\C#\Silver\Silver\bin\Debug\Silver.exe.config
+D:\C#\Silver\Silver\bin\Debug\Silver.exe
+D:\C#\Silver\Silver\bin\Debug\Silver.pdb
+D:\C#\Silver\Silver\obj\Debug\Silver.csprojResolveAssemblyReference.cache
+D:\C#\Silver\Silver\obj\Debug\Silver.Main.resources
+D:\C#\Silver\Silver\obj\Debug\Silver.Properties.Resources.resources
+D:\C#\Silver\Silver\obj\Debug\Silver.csproj.GenerateResource.Cache
+D:\C#\Silver\Silver\obj\Debug\Silver.exe
+D:\C#\Silver\Silver\obj\Debug\Silver.pdb
